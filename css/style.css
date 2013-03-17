@@ -75,16 +75,17 @@
 	padding: 20px 10px 0;
 }
 
-.mi-slider ul li h5 {
-	display: inline-block;
+.mi-slider ul li p {
+	display: box;
 	font-weight: 100;
 	font-size: 48px;
+	width: 200%;
 	line-height: 26px;
 }
 
 
-.mi-slider ul li h5 span {
-	display: block;
+.mi-slider ul li p span {
+	display: box;
 	font-weight: 100;
 	font-size: 16px;
 	width: 200%;
