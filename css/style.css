@@ -63,7 +63,6 @@
 
 .mi-slider ul li h3 {
 	display: inline-block;
-    font-family: 'Lato', Segoe, sans-serif;
 	font-weight: 100;
 	font-size: 24px;
 	padding: 20px 10px 0;
@@ -71,10 +70,31 @@
 
 .mi-slider ul li h4 {
 	display: inline-block;
-    font-family: 'Lato', Segoe, sans-serif;
 	font-weight: 100;
 	font-size: 16px;
 	padding: 20px 10px 0;
+}
+
+.mi-slider ul li h5 {
+	display: inline-block;
+	font-weight: 100;
+	font-size: 48px;
+	line-height: 26px;
+}
+
+
+.mi-slider ul li h5 span {
+	display: block;
+	font-weight: 100;
+	font-size: 16px;
+	width: 200%;
+	padding: 20px 10px 0;
+}
+
+.mi-slider ul li form {
+	display: inline-block;
+	font-weight: 100;
+	font-size: 12px;
 }
 
 .mi-slider ul li:hover {
@@ -87,7 +107,11 @@
 	text-align: center;
 	max-width: 800px;
 	margin: 0 auto;
-	border-top: 10px solid #333;
+	border-image:url('http://img1.etsystatic.com/000/0/5502637/il_fullxfull.300265481.jpg') 50 30 round;
+	border-top: 5px solid #333;
+	border-bottom: 0px;
+	border-right: 0px;
+	border-left: 0px;
 }
 
 .no-js nav {
